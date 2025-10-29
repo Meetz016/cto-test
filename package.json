@@ -1,0 +1,27 @@
+{
+  "name": "project-scaffold",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo scaffold for backend and frontend applications.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "echo \"Define the build pipeline for backend and frontend workspaces\"",
+    "start": "echo \"Define the start command for the selected workspace\"",
+    "test": "echo \"Add shared test runner\""
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "keywords": [
+    "monorepo",
+    "express",
+    "react",
+    "typescript",
+    "prisma"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}
